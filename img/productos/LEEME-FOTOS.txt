@@ -1,0 +1,15 @@
+FOTOS DE PRODUCTOS — BOHEMIOS
+
+Este directorio contiene ilustraciones de presentación en .webp para los 141 productos de la carta.
+NO son fotografías reales de Bohemios. Puedes sustituir cada ilustración por una foto real, manteniendo exactamente su nombre y formato .webp.
+
+PIZZAS: cada sabor tiene imagen principal y otras cuatro imágenes de variantes.
+Por ejemplo: americana.webp, americana-personal.webp, americana-mediana.webp, americana-familiar.webp, americana-extragrande.webp.
+La web utiliza las imágenes de variantes para cambiarlas inmediatamente cuando el usuario selecciona otro tamaño.
+
+BEBIDAS: también se usan imágenes por presentación.
+Por ejemplo: chicha-morada.webp, chicha-morada-medio-litro.webp, chicha-morada-1-litro.webp.
+
+CONSEJO: fotos horizontales de 800 x 460 px (aprox. 16:9), WEBP de calidad 80 a 90.
+Puedes reemplazarlas en GitHub haciendo Upload files y subiendo la foto con EL MISMO nombre.
+Para cambiar la ruta de una foto o el precio de un producto, edita datos/menu.js.
