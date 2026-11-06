@@ -1,0 +1,1950 @@
+// EDITA LOS PRECIOS, NOMBRES, VARIANTES E IMÁGENES AQUÍ.
+window.BOHEMIOS_MENU = {
+  "restaurant": {
+    "name": "Bohemios",
+    "tagline": "Resto Bar · Pizzería · Pollos y parrillas",
+    "phone": "51945483809",
+    "address": "Jr. Cusco 430, San Ignacio, Perú",
+    "deliveryCost": null
+  },
+  "categories": [
+    {
+      "id": "piqueos",
+      "name": "Piqueos",
+      "group": "Cocina",
+      "subtitle": "Para empezar la noche",
+      "emoji": "🔥",
+      "items": [
+        {
+          "id": "piqueos-chicharron-de-pollo",
+          "name": "Chicharron de pollo",
+          "description": "Trozos de pollo sin hueso crujientes acompañado de papas fritas y salsa criolla",
+          "price": 35.0,
+          "category": "piqueos",
+          "image": "img/productos/chicharron-de-pollo.webp"
+        },
+        {
+          "id": "piqueos-alitas-en-salsa",
+          "name": "Alitas en salsa",
+          "description": "8 piezas de alitas bañadas en salsa de tu eleccion mas guarnicion, escoge un sabor.",
+          "price": 30.0,
+          "category": "piqueos",
+          "image": "img/productos/alitas-en-salsa-bbq-maracuya-picantes-acevichadas-orientales-chimichurri-al-olivo.webp",
+          "options": [
+            {
+              "label": "Elige tu salsa",
+              "type": "single",
+              "values": [
+                "BBQ",
+                "Maracuyá",
+                "Picante",
+                "Acevichada",
+                "Oriental",
+                "Chimichurri",
+                "Al olivo"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "piqueos-ronda-de-alitas",
+          "name": "Ronda de alitas",
+          "description": "12 piezas de alitas bañadas en 3 sabores de tu eleccion mas guarnicion",
+          "price": 45.0,
+          "category": "piqueos",
+          "image": "img/productos/ronda-de-alitas-bbq-maracuya-picantes-acevichadas-orientales-chimichurri-al-olivo.webp",
+          "options": [
+            {
+              "label": "Elige 3 salsas",
+              "type": "multi",
+              "values": [
+                "BBQ",
+                "Maracuyá",
+                "Picante",
+                "Acevichada",
+                "Oriental",
+                "Chimichurri",
+                "Al olivo"
+              ],
+              "min": 3,
+              "max": 3,
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "piqueos-tequenos-clasicos-docena",
+          "name": "Tequeños clasicos (docena",
+          "description": "Relleno de jamon y queso acompañado de salsa guacamole",
+          "price": 18.0,
+          "category": "piqueos",
+          "image": "img/productos/tequenos-clasicos-docena.webp"
+        },
+        {
+          "id": "piqueos-tequenos-brasa-docena",
+          "name": "Tequeños brasa (docena",
+          "description": "Rellenos de queso, pollo brasa acompañado de salsa guacamole y ají pollero",
+          "price": 24.0,
+          "category": "piqueos",
+          "image": "img/productos/tequenos-brasa-docena.webp"
+        },
+        {
+          "id": "piqueos-tequenos-de-lomo-saltado-docena",
+          "name": "Tequeños de lomo saltado (docena",
+          "description": "Rellenos de lomo y queso acompañado de salsa picante",
+          "price": 28.0,
+          "category": "piqueos",
+          "image": "img/productos/tequenos-de-lomo-saltado-docena.webp"
+        },
+        {
+          "id": "piqueos-pan-al-ajo",
+          "name": "Pan al ajo",
+          "description": "10 panes crocantes en salsa de ajó",
+          "price": 20.0,
+          "category": "piqueos",
+          "image": "img/productos/pan-al-ajo.webp"
+        },
+        {
+          "id": "piqueos-salchipapa-clasico",
+          "name": "Salchipapa clasico",
+          "description": "Hot dog, huevo, plátano frito, acompañado de abundante papa",
+          "price": 18.0,
+          "category": "piqueos",
+          "image": "img/productos/salchipapa-clasico.webp"
+        },
+        {
+          "id": "piqueos-salchipapa-selvatico",
+          "name": "Salchipapa selvatico",
+          "description": "Cecina ahumada, chorizo ahumado, hot dog, plátano frito acompañado de abundante papa",
+          "price": 24.0,
+          "category": "piqueos",
+          "image": "img/productos/salchipapa-selvatico.webp"
+        },
+        {
+          "id": "piqueos-salchi-brasa",
+          "name": "Salchi brasa",
+          "description": "Pollo brasa deshilachado, hot dog, chorizo, huevo frito acompañado de abundante papa",
+          "price": 24.0,
+          "category": "piqueos",
+          "image": "img/productos/salchi-brasa.webp"
+        },
+        {
+          "id": "piqueos-salchipapa-parrillero",
+          "name": "Salchipapa parrillero",
+          "description": "Pancita, ubre, chorizo en salsa chimichurri acompañado de abundante papa",
+          "price": 28.0,
+          "category": "piqueos",
+          "image": "img/productos/salchipapa-parrillero.webp"
+        },
+        {
+          "id": "piqueos-salchipapa-bohemio",
+          "name": "Salchipapa Bohemio",
+          "description": "Chorizo ahumado, cecina ahumada, chorizo parrillero, trozos de pollo, hot dog, huevo, plátano frito, queso mozzarella derritido acompañado de abundadnte papa",
+          "price": 35.0,
+          "category": "piqueos",
+          "image": "img/productos/salchipapa-bohemio.webp"
+        },
+        {
+          "id": "piqueos-tabla-bohemia-para-acompanar-una-buena-botella-de-vino",
+          "name": "Tabla bohemia para acompañar una buena botella de vino",
+          "description": "Corte de queso mozzarella, aceitunas, jamon, chorizo, cabanossi, salame, galletas y pan de la casa",
+          "price": 60.0,
+          "category": "piqueos",
+          "image": "img/productos/tabla-bohemia-para-acompanar-una-buena-botella-de-vino.webp"
+        }
+      ]
+    },
+    {
+      "id": "fondos",
+      "name": "Platos de fondo",
+      "group": "Cocina",
+      "subtitle": "Los favoritos de la casa",
+      "emoji": "🍽️",
+      "items": [
+        {
+          "id": "fondos-pollo-a-la-plancha",
+          "name": "Pollo a la plancha",
+          "description": "Filete de pollo grillado acompañado de papas sancochadas, arroz blanco y ensalada",
+          "price": 24.0,
+          "category": "fondos",
+          "image": "img/productos/pollo-a-la-plancha.webp"
+        },
+        {
+          "id": "fondos-pollo-broaster",
+          "name": "Pollo broaster",
+          "description": "Pollo rebozado crujiente acompañado de papas fritas, arroz blanco o chaufa y ensalada",
+          "price": 24.0,
+          "category": "fondos",
+          "image": "img/productos/pollo-broaster.webp",
+          "options": [
+            {
+              "label": "Acompañamiento de arroz",
+              "type": "single",
+              "values": [
+                "Arroz blanco",
+                "Arroz chaufa"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "fondos-milanesa-de-pollo",
+          "name": "Milanesa de pollo",
+          "description": "Pollo empanizado acompañado de papas fritas, arroz blanco o chaufa y ensalada",
+          "price": 24.0,
+          "category": "fondos",
+          "image": "img/productos/milanesa-de-pollo.webp",
+          "options": [
+            {
+              "label": "Acompañamiento de arroz",
+              "type": "single",
+              "values": [
+                "Arroz blanco",
+                "Arroz chaufa"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "fondos-pollo-napolitana",
+          "name": "Pollo napolitana",
+          "description": "Filete de pollo en salsa con jamon y queso gratinado, arroz blanco o chaufa, papas fritas y ensalada",
+          "price": 28.0,
+          "category": "fondos",
+          "image": "img/productos/pollo-napolitana.webp",
+          "options": [
+            {
+              "label": "Acompañamiento de arroz",
+              "type": "single",
+              "values": [
+                "Arroz blanco",
+                "Arroz chaufa"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "fondos-enrrollado-de-pollo",
+          "name": "Enrollado de pollo",
+          "description": "Enrrollado de pollo bañado en salsa oriental con arroz chaufa, papas fritas y ensalada",
+          "price": 30.0,
+          "category": "fondos",
+          "image": "img/productos/enrrollado-de-pollo.webp"
+        },
+        {
+          "id": "fondos-cordon-bleu",
+          "name": "Cordon bleu",
+          "description": "Pollo bañado en salsa blanca, arroz blanco o chaufa, papas grilladas con chimichurri mas ensalada",
+          "price": 34.0,
+          "category": "fondos",
+          "image": "img/productos/cordon-bleu.webp",
+          "options": [
+            {
+              "label": "Acompañamiento de arroz",
+              "type": "single",
+              "values": [
+                "Arroz blanco",
+                "Arroz chaufa"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "fondos-lomo-saltado",
+          "name": "Lomo saltado",
+          "description": "Trozos de lomo acompañado de arroz blanco o chaufa, platanos y papas fritas",
+          "price": 28.0,
+          "category": "fondos",
+          "image": "img/productos/lomo-saltado.webp",
+          "options": [
+            {
+              "label": "Acompañamiento de arroz",
+              "type": "single",
+              "values": [
+                "Arroz blanco",
+                "Arroz chaufa"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "fondos-bisctec-a-lo-pobre",
+          "name": "Bistec a lo pobre",
+          "description": "Filete de lomo grillado acompañado de arroz blanco o chaufa, huevo, platanos y papas fritas",
+          "price": 30.0,
+          "category": "fondos",
+          "image": "img/productos/bisctec-a-lo-pobre.webp",
+          "options": [
+            {
+              "label": "Acompañamiento de arroz",
+              "type": "single",
+              "values": [
+                "Arroz blanco",
+                "Arroz chaufa"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "fondos-chaufa-bohemio",
+          "name": "Chaufa Bohemio",
+          "description": "Arroz frito acompañado de cecina ahumada, chorizo ahumado, chorizo parrillero, pollo, hotdog, huevo y platanos fritos.",
+          "price": 28.0,
+          "category": "fondos",
+          "image": "img/productos/chaufa-bohemio.webp"
+        },
+        {
+          "id": "fondos-aeropuerto-bohemio",
+          "name": "Aeropuerto Bohemio",
+          "description": "Arroz y tallarin frito acompañado de una mixtura de carnes (lomo, pollo, chancho, hotdog y huevo",
+          "price": 28.0,
+          "category": "fondos",
+          "image": "img/productos/aeropuerto-bohemio.webp"
+        },
+        {
+          "id": "fondos-tallarin-bohemio",
+          "name": "Tallarin Bohemio",
+          "description": "Tallarin salteado acompañado de una mixtura de carnes (lomo, pollo y chancho",
+          "price": 28.0,
+          "category": "fondos",
+          "image": "img/productos/tallarin-bohemio.webp"
+        },
+        {
+          "id": "fondos-costillas-de-cerdo",
+          "name": "Costillas de cerdo",
+          "description": "Acompañado de arroz chaufa, papas grilladas, camote frito y salsa criolla",
+          "price": 35.0,
+          "category": "fondos",
+          "image": "img/productos/costillas-de-cerdo-clasicas-bbq-maracuya-orientales-chimichurri.webp",
+          "options": [
+            {
+              "label": "Elige la salsa",
+              "type": "single",
+              "values": [
+                "Clásica",
+                "BBQ",
+                "Maracuyá",
+                "Oriental",
+                "Chimichurri"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "fondos-panceta-de-cerdo",
+          "name": "Panceta de cerdo",
+          "description": "Acompañado de arroz chaufa, papas grilladas, camote frito y salsa criolla",
+          "price": 35.0,
+          "category": "fondos",
+          "image": "img/productos/panceta-de-cerdo.webp"
+        },
+        {
+          "id": "fondos-ronda-ahumados-bohemio",
+          "name": "Ronda de ahumados Bohemios",
+          "description": "Cecina ahumada, chorizo ahumado, costillas en salsa de su eleccion, porcion de chaufa, papas grilladas, camote y platanos fritos.",
+          "price": 75.0,
+          "category": "fondos",
+          "image": "img/productos/ronda-ahumados-bohemio.webp",
+          "options": [
+            {
+              "label": "Salsa para las costillas",
+              "type": "single",
+              "values": [
+                "Clásica",
+                "BBQ",
+                "Maracuyá",
+                "Oriental",
+                "Chimichurri"
+              ],
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizzas",
+      "name": "Pizzas",
+      "group": "Cocina",
+      "subtitle": "A tu medida, para compartir",
+      "emoji": "🍕",
+      "items": [
+        {
+          "id": "pizzas-americana",
+          "name": "Americana",
+          "description": "Salsa clasica, jamón y pimiento",
+          "price": 20.0,
+          "category": "pizzas",
+          "image": "img/productos/americana.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 20.0,
+              "image": "img/productos/americana-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 30.0,
+              "image": "img/productos/americana-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 44.0,
+              "image": "img/productos/americana-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 54.0,
+              "image": "img/productos/americana-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-pepperoni",
+          "name": "Pepperoni",
+          "description": "Salsa clasica y pepperoni",
+          "price": 20.0,
+          "category": "pizzas",
+          "image": "img/productos/pepperoni.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 20.0,
+              "image": "img/productos/pepperoni-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 30.0,
+              "image": "img/productos/pepperoni-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 44.0,
+              "image": "img/productos/pepperoni-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 54.0,
+              "image": "img/productos/pepperoni-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-hawaina",
+          "name": "Hawaiana",
+          "description": "Salsa clasica, jamón, piña",
+          "price": 22.0,
+          "category": "pizzas",
+          "image": "img/productos/hawaina.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 22.0,
+              "image": "img/productos/hawaina-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 34.0,
+              "image": "img/productos/hawaina-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 46.0,
+              "image": "img/productos/hawaina-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 54.0,
+              "image": "img/productos/hawaina-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-tropical",
+          "name": "Tropical",
+          "description": "Salsa clasica, jamón, pollo, piña, durazno, pimiento",
+          "price": 22.0,
+          "category": "pizzas",
+          "image": "img/productos/tropical.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 22.0,
+              "image": "img/productos/tropical-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 34.0,
+              "image": "img/productos/tropical-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 46.0,
+              "image": "img/productos/tropical-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 54.0,
+              "image": "img/productos/tropical-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-italiana",
+          "name": "Italiana",
+          "description": "Salsa clasica, jamón, salame, aceituna, aros de cebolla",
+          "price": 22.0,
+          "category": "pizzas",
+          "image": "img/productos/italiana.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 22.0,
+              "image": "img/productos/italiana-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 36.0,
+              "image": "img/productos/italiana-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 48.0,
+              "image": "img/productos/italiana-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 58.0,
+              "image": "img/productos/italiana-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-tomatina",
+          "name": "Tomatina",
+          "description": "Salsa clasica, jamón, cabanossi, salame, rodajas de tomate",
+          "price": 22.0,
+          "category": "pizzas",
+          "image": "img/productos/tomatina.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 22.0,
+              "image": "img/productos/tomatina-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 36.0,
+              "image": "img/productos/tomatina-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 48.0,
+              "image": "img/productos/tomatina-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 58.0,
+              "image": "img/productos/tomatina-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-vegetariana",
+          "name": "Vegetariana",
+          "description": "Salsa clasica, pimiento, champiñones, aceituna, aros de cebolla, albahaca",
+          "price": 22.0,
+          "category": "pizzas",
+          "image": "img/productos/vegetariana.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 22.0,
+              "image": "img/productos/vegetariana-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 36.0,
+              "image": "img/productos/vegetariana-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 48.0,
+              "image": "img/productos/vegetariana-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 58.0,
+              "image": "img/productos/vegetariana-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-hot-brasas",
+          "name": "Hot brasas",
+          "description": "Salsa clasica, pollo brasa, champiñones, jamón, salame y salsa picante",
+          "price": 24.0,
+          "category": "pizzas",
+          "image": "img/productos/hot-brasas.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 24.0,
+              "image": "img/productos/hot-brasas-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 40.0,
+              "image": "img/productos/hot-brasas-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 56.0,
+              "image": "img/productos/hot-brasas-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 65.0,
+              "image": "img/productos/hot-brasas-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-carnivora",
+          "name": "Carnivora",
+          "description": "Salsa clasica, jamón, lomo fino, chorizo, salame",
+          "price": 24.0,
+          "category": "pizzas",
+          "image": "img/productos/carnivora.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 24.0,
+              "image": "img/productos/carnivora-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 40.0,
+              "image": "img/productos/carnivora-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 56.0,
+              "image": "img/productos/carnivora-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 65.0,
+              "image": "img/productos/carnivora-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-selvatica",
+          "name": "Selvatica",
+          "description": "Salsa clasica, pepperoni, cecina y chorizo ahumado, plátano frito",
+          "price": 24.0,
+          "category": "pizzas",
+          "image": "img/productos/selvatica.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 24.0,
+              "image": "img/productos/selvatica-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 40.0,
+              "image": "img/productos/selvatica-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 56.0,
+              "image": "img/productos/selvatica-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 65.0,
+              "image": "img/productos/selvatica-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-lomo-saltado",
+          "name": "Lomo saltado",
+          "description": "Salsa clasica, salame, pimiento, lomo fino flameado, chorizo",
+          "price": 26.0,
+          "category": "pizzas",
+          "image": "img/productos/lomo-saltado.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 26.0,
+              "image": "img/productos/lomo-saltado-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 40.0,
+              "image": "img/productos/lomo-saltado-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 58.0,
+              "image": "img/productos/lomo-saltado-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 68.0,
+              "image": "img/productos/lomo-saltado-extragrande.webp"
+            }
+          ]
+        },
+        {
+          "id": "pizzas-bohemios",
+          "name": "Bohemios",
+          "description": "Salsa clasica, cecina y chorizo ahumado, salame, aros de cebolla, cabanossi, aceituna, pimiento, chorizo parrillero, extra queso",
+          "price": 26.0,
+          "category": "pizzas",
+          "image": "img/productos/bohemios.webp",
+          "variants": [
+            {
+              "label": "Personal",
+              "price": 26.0,
+              "image": "img/productos/bohemios-personal.webp"
+            },
+            {
+              "label": "Mediana",
+              "price": 44.0,
+              "image": "img/productos/bohemios-mediana.webp"
+            },
+            {
+              "label": "Familiar",
+              "price": 60.0,
+              "image": "img/productos/bohemios-familiar.webp"
+            },
+            {
+              "label": "Extragrande",
+              "price": 74.0,
+              "image": "img/productos/bohemios-extragrande.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": "Burgers y sándwiches",
+      "group": "Cocina",
+      "subtitle": "Hamburguesas que se hacen notar",
+      "emoji": "🍔",
+      "items": [
+        {
+          "id": "burgers-choripan",
+          "name": "Choripan",
+          "description": "Chorizo precosido a la parrilla en salsa chimichurri y papas fritas",
+          "price": 12.0,
+          "category": "burgers",
+          "image": "img/productos/choripan.webp"
+        },
+        {
+          "id": "burgers-clasica",
+          "name": "Clasica",
+          "description": "Carne casera, ensalada y papas fritas",
+          "price": 12.0,
+          "category": "burgers",
+          "image": "img/productos/clasica.webp"
+        },
+        {
+          "id": "burgers-chess-mix",
+          "name": "Cheese Mix",
+          "description": "Carne casera, queso mozzarella, hot dog, ensalada y papas fritas",
+          "price": 14.0,
+          "category": "burgers",
+          "image": "img/productos/chess-mix.webp"
+        },
+        {
+          "id": "burgers-royal",
+          "name": "Royal",
+          "description": "Carne casera, queso mozzarella, hot dog, huevo, salame, ensaladas, papas fritas",
+          "price": 18.0,
+          "category": "burgers",
+          "image": "img/productos/royal.webp"
+        },
+        {
+          "id": "burgers-a-lo-pobre",
+          "name": "A lo pobre",
+          "description": "Carne casera, queso mozzarella, huevo, platanos fritos, pepperoni, ensalada, papas fritas",
+          "price": 18.0,
+          "category": "burgers",
+          "image": "img/productos/a-lo-pobre.webp"
+        },
+        {
+          "id": "burgers-a-la-brasa",
+          "name": "A la brasa",
+          "description": "Pollo brasa deshilachado, hot dog, huevo, ensalada, papas fritas",
+          "price": 18.0,
+          "category": "burgers",
+          "image": "img/productos/a-la-brasa.webp"
+        },
+        {
+          "id": "burgers-hawaina",
+          "name": "Hawaiana",
+          "description": "Carne casera, queso mozzarella, jamón, piña, durazno, ensalada y papas fritas",
+          "price": 18.0,
+          "category": "burgers",
+          "image": "img/productos/hawaina.webp"
+        },
+        {
+          "id": "burgers-parrillera",
+          "name": "Parrillera",
+          "description": "Carne casera, chorizo, jamón, tocino, camote, ensalada, papas fritas",
+          "price": 20.0,
+          "category": "burgers",
+          "image": "img/productos/parrillera.webp"
+        },
+        {
+          "id": "burgers-pollo-crispi",
+          "name": "Pollo crispy",
+          "description": "Pollo crispí, jamón, queso mozzarella, salsa guacamole, ensalada, papas fritas",
+          "price": 22.0,
+          "category": "burgers",
+          "image": "img/productos/pollo-crispi.webp"
+        },
+        {
+          "id": "burgers-pechugon",
+          "name": "Pechugon",
+          "description": "Filete de pollo grillado, champiñones, queso mosarella, jamón, ensalada y papas fritas",
+          "price": 22.0,
+          "category": "burgers",
+          "image": "img/productos/pechugon.webp"
+        },
+        {
+          "id": "burgers-san-ignacina",
+          "name": "San Ignacina",
+          "description": "Cecina de ahumada, chorizo ahumado, tocino, plátano frito, camote, papas fritas y sarza criolla",
+          "price": 24.0,
+          "category": "burgers",
+          "image": "img/productos/san-ignacina.webp"
+        },
+        {
+          "id": "burgers-extrema",
+          "name": "Extrema",
+          "description": "Doble carne casera, pollo brasa, queso mozzarella, jamón, chorizo, salame, plátano frito, champiñones, aros de cebolla, ensalada, papas fritas",
+          "price": 30.0,
+          "category": "burgers",
+          "image": "img/productos/extrema.webp"
+        }
+      ]
+    },
+    {
+      "id": "brasa",
+      "name": "Brasa & grill",
+      "group": "Cocina",
+      "subtitle": "Sabor de fuego y parrilla",
+      "emoji": "🥩",
+      "items": [
+        {
+          "id": "brasa-pollo-a-la-brasa",
+          "name": "Pollo a la brasa",
+          "description": "Un pollo brasa tierno y jugoso acompañado de abundante papas crujientes, porcion de chaufa y ensalada de la casa",
+          "price": 65.0,
+          "category": "brasa",
+          "image": "img/productos/pollo-a-la-brasa.webp"
+        },
+        {
+          "id": "brasa-medio-pollo-brasa",
+          "name": "½ pollo brasa",
+          "description": "Medio pollo brasa tierno y jugoso acompañado de abundante papas crujientes y ensalada de la casa",
+          "price": 35.0,
+          "category": "brasa",
+          "image": "img/productos/medio-pollo-brasa.webp"
+        },
+        {
+          "id": "brasa-cuarto-pollo-brasa",
+          "name": "¼ pollo brasa",
+          "description": "Un cuarto de pollo brasa tierno y jugoso acompañado de abundante papas crujientes y ensalada de la casa",
+          "price": 18.0,
+          "category": "brasa",
+          "image": "img/productos/cuarto-pollo-brasa.webp"
+        },
+        {
+          "id": "brasa-cuarto-pollo-brasa-mostrito",
+          "name": "¼ pollo brasa mostrito",
+          "description": "Un cuarto de pollo brasa tierno y jugoso acompañado de abundante papas crujientes, arroz chaufa y ensalada de la casa.",
+          "price": 22.0,
+          "category": "brasa",
+          "image": "img/productos/cuarto-pollo-brasa-mostrito.webp"
+        },
+        {
+          "id": "brasa-mollejitas-a-la-parrilla",
+          "name": "Mollejitas a la parrilla",
+          "description": "Mollejitas en salsa parrillera acompañada de papas grilladas, plátano frito y ensalada",
+          "price": 24.0,
+          "category": "brasa",
+          "image": "img/productos/mollejitas-a-la-parrilla.webp"
+        },
+        {
+          "id": "brasa-pechuga-de-pollo-a-la-parrilla",
+          "name": "Pechuga de pollo a la parrilla",
+          "description": "Filete de pollo acompañado de papas grilladas, arroz blanco y ensalada de la casa",
+          "price": 26.0,
+          "category": "brasa",
+          "image": "img/productos/pechuga-de-pollo-a-la-parrilla.webp"
+        },
+        {
+          "id": "brasa-brochetas-de-pollo",
+          "name": "Brochetas de pollo",
+          "description": "Trozos de pollo jugoso acompañados de papas grilladas y ensalada de la casa",
+          "price": 26.0,
+          "category": "brasa",
+          "image": "img/productos/brochetas-de-pollo.webp"
+        },
+        {
+          "id": "brasa-ubre-a-la-parrilla",
+          "name": "Ubre a la parrilla",
+          "description": "Filete de ubre acompaño de papas grilladas, camote frito, choclo y ensalada de la casa",
+          "price": 24.0,
+          "category": "brasa",
+          "image": "img/productos/ubre-a-la-parrilla.webp"
+        },
+        {
+          "id": "brasa-chuleta-a-la-parrilla",
+          "name": "Chuleta a la parrilla",
+          "description": "Corte de cerdo acompañado de papas grilladas, camote frito, choclo y salsa criolla",
+          "price": 26.0,
+          "category": "brasa",
+          "image": "img/productos/chuleta-a-la-parrilla.webp"
+        },
+        {
+          "id": "brasa-anticuchos-de-corazon",
+          "name": "Anticuchos de corazon",
+          "description": "Trozos de corazon a la parrilla acompañado de papas grilladas, camote, choclo y salsa criolla",
+          "price": 26.0,
+          "category": "brasa",
+          "image": "img/productos/anticuchos-de-corazon.webp"
+        },
+        {
+          "id": "brasa-asado-de-tira-a-la-parrilla",
+          "name": "Asado de tira a la parrilla",
+          "description": "Corte de costilla acompañado de papas grilladas, arroz blanco, camote y ensalada de la casa",
+          "price": 40.0,
+          "category": "brasa",
+          "image": "img/productos/asado-de-tira-a-la-parrilla.webp"
+        },
+        {
+          "id": "brasa-lomo-fino-a-la-parrilla",
+          "name": "Lomo fino a la parrilla",
+          "description": "Corte de lomo fino acompañado de papas grilladas, arroz blanco, camote y ensalada de la casa",
+          "price": 40.0,
+          "category": "brasa",
+          "image": "img/productos/lomo-fino-a-la-parrilla.webp"
+        },
+        {
+          "id": "brasa-bife-ancho-a-la-parrilla",
+          "name": "Bife ancho a la parrilla",
+          "description": "Corte de bife ancho acompañado de papas grilladas, arroz blanco, camote y ensalada de la casa",
+          "price": 40.0,
+          "category": "brasa",
+          "image": "img/productos/bife-ancho-a-la-parrilla.webp"
+        }
+      ]
+    },
+    {
+      "id": "parrillas",
+      "name": "Parrillas para compartir",
+      "group": "Cocina",
+      "subtitle": "La mesa se arma en grupo",
+      "emoji": "🔥",
+      "items": [
+        {
+          "id": "parrillas-parrilla-clasica",
+          "name": "Parrilla clasica",
+          "description": "Corte de lomo, mollejitas, pancita y guarnicion",
+          "price": 40.0,
+          "category": "parrillas",
+          "image": "img/productos/parrilla-clasica.webp"
+        },
+        {
+          "id": "parrillas-parrilla-campesina",
+          "name": "Parrilla campesina",
+          "description": "1 anticucho, mollejitas, ubre, pancita, chorizo y guarnicion",
+          "price": 55.0,
+          "category": "parrillas",
+          "image": "img/productos/parrilla-campesina.webp"
+        },
+        {
+          "id": "parrillas-parrilla-fusion",
+          "name": "Parrilla fusion",
+          "description": "Corte de lomo, filete de pollo, 2 anticuchos selvaticos, mollejitas, pancita y guarnicion",
+          "price": 65.0,
+          "category": "parrillas",
+          "image": "img/productos/parrilla-fusion.webp"
+        },
+        {
+          "id": "parrillas-parrilla-mixta",
+          "name": "Parrilla mixta",
+          "description": "Corte de lomo fino, ¼ pollo brasa, chuleta de cerdo, 2 anticuchos, ubre, mollejitas, chorizo parrillero y guarnicion",
+          "price": 80.0,
+          "category": "parrillas",
+          "image": "img/productos/parrilla-mixta.webp"
+        },
+        {
+          "id": "parrillas-parrilla-especial",
+          "name": "Parrilla especial",
+          "description": "Corte de bife ancho, 2 anticuchos, ¼ pollo brasa, costillas en salsa de maracuya, chorizo ahumado, chorizo parrillero, chorizo a las finas hierbas, rodajas de piña asadas y guarnicion",
+          "price": 110.0,
+          "category": "parrillas",
+          "image": "img/productos/parrilla-especial.webp"
+        },
+        {
+          "id": "parrillas-parrilla-extrema-bohemia",
+          "name": "Parrilla extrema bohemia",
+          "description": "Corte de lomo fino, ½ pollo brasa, chuleta de cerdo, 2 anticuchos, ubre, costillas bbq, alias picantes, mollejitas, chorizo parrillero, porcion de chaufa bohemio mas guarnicion",
+          "price": 150.0,
+          "category": "parrillas",
+          "image": "img/productos/parrilla-extrema-bohemia.webp"
+        }
+      ]
+    },
+    {
+      "id": "sin-alcohol",
+      "name": "Sin alcohol",
+      "group": "Barra",
+      "subtitle": "Refresca el momento",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "sin-alcohol-chicha-morada",
+          "name": "Chicha morada",
+          "description": "",
+          "price": 8.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/chicha-morada.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 8.0,
+              "image": "img/productos/chicha-morada-medio-litro.webp"
+            },
+            {
+              "label": "1 litro",
+              "price": 14.0,
+              "image": "img/productos/chicha-morada-1-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-limonada-frozen",
+          "name": "Limonada frozen",
+          "description": "",
+          "price": 8.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/limonada-frozen.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 8.0,
+              "image": "img/productos/limonada-frozen-medio-litro.webp"
+            },
+            {
+              "label": "1 litro",
+              "price": 14.0,
+              "image": "img/productos/limonada-frozen-1-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-hierba-buena-frozen",
+          "name": "Hierbabuena frozen",
+          "description": "",
+          "price": 10.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/hierba-buena-frozen.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 10.0,
+              "image": "img/productos/hierba-buena-frozen-medio-litro.webp"
+            },
+            {
+              "label": "1 litro",
+              "price": 16.0,
+              "image": "img/productos/hierba-buena-frozen-1-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-maracuya-frozen",
+          "name": "Maracuya frozen",
+          "description": "",
+          "price": 10.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/maracuya-frozen.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 10.0,
+              "image": "img/productos/maracuya-frozen-medio-litro.webp"
+            },
+            {
+              "label": "1 litro",
+              "price": 16.0,
+              "image": "img/productos/maracuya-frozen-1-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-durazno-frozen",
+          "name": "Durazno frozen",
+          "description": "",
+          "price": 12.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/durazno-frozen.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 12.0,
+              "image": "img/productos/durazno-frozen-medio-litro.webp"
+            },
+            {
+              "label": "1 litro",
+              "price": 20.0,
+              "image": "img/productos/durazno-frozen-1-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-coco-frozen",
+          "name": "Coco frozen",
+          "description": "",
+          "price": 12.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/coco-frozen.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 12.0,
+              "image": "img/productos/coco-frozen-medio-litro.webp"
+            },
+            {
+              "label": "1 litro",
+              "price": 20.0,
+              "image": "img/productos/coco-frozen-1-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-gaesosa-inca-cola",
+          "name": "Gaseosa Inca Kola",
+          "description": "",
+          "price": 5.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/gaesosa-inca-cola.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 5.0,
+              "image": "img/productos/gaesosa-inca-cola-medio-litro.webp"
+            },
+            {
+              "label": "1 litro",
+              "price": 10.0,
+              "image": "img/productos/gaesosa-inca-cola-1-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-gaseosa-coca-cola",
+          "name": "Gaseosa coca cola",
+          "description": "",
+          "price": 5.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/gaseosa-coca-cola.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 5.0,
+              "image": "img/productos/gaseosa-coca-cola-medio-litro.webp"
+            },
+            {
+              "label": "1 litro",
+              "price": 10.0,
+              "image": "img/productos/gaseosa-coca-cola-1-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-gaseosa-fanta",
+          "name": "Gaseosa fanta",
+          "description": "",
+          "price": 5.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/gaseosa-fanta.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 5.0,
+              "image": "img/productos/gaseosa-fanta-medio-litro.webp"
+            },
+            {
+              "label": "1 litro",
+              "price": 10.0,
+              "image": "img/productos/gaseosa-fanta-1-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-agua-mineral-san-carlos",
+          "name": "Agua mineral san carlos",
+          "description": "",
+          "price": 2.5,
+          "category": "sin-alcohol",
+          "image": "img/productos/agua-mineral-san-carlos.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 2.5,
+              "image": "img/productos/agua-mineral-san-carlos-medio-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-agua-mineral-con-gas-san-carlos",
+          "name": "Agua mineral con gas san carlos",
+          "description": "",
+          "price": 3.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/agua-mineral-con-gas-san-carlos.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 3.0,
+              "image": "img/productos/agua-mineral-con-gas-san-carlos-medio-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-agua-mineral-san-luis",
+          "name": "Agua mineral san luis",
+          "description": "",
+          "price": 3.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/agua-mineral-san-luis.webp",
+          "variants": [
+            {
+              "label": "½ litro",
+              "price": 3.0,
+              "image": "img/productos/agua-mineral-san-luis-medio-litro.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-cafe-pasado-san-ignacino",
+          "name": "Café pasado san ignacino",
+          "description": "",
+          "price": 8.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/cafe-pasado-san-ignacino.webp",
+          "variants": [
+            {
+              "label": "Taza",
+              "price": 8.0,
+              "image": "img/productos/cafe-pasado-san-ignacino-taza.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-cafe-pasado-con-leche",
+          "name": "Café pasado con leche",
+          "description": "",
+          "price": 10.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/cafe-pasado-con-leche.webp",
+          "variants": [
+            {
+              "label": "Taza",
+              "price": 10.0,
+              "image": "img/productos/cafe-pasado-con-leche-taza.webp"
+            }
+          ]
+        },
+        {
+          "id": "sin-alcohol-infusiones-te-manzanilla-anis",
+          "name": "Infusiones",
+          "description": "",
+          "price": 4.0,
+          "category": "sin-alcohol",
+          "image": "img/productos/infusiones-te-manzanilla-anis.webp",
+          "variants": [
+            {
+              "label": "Taza",
+              "price": 4.0,
+              "image": "img/productos/infusiones-te-manzanilla-anis-taza.webp"
+            }
+          ],
+          "options": [
+            {
+              "label": "Elige tu infusión",
+              "type": "single",
+              "values": [
+                "Té",
+                "Manzanilla",
+                "Anís"
+              ],
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocteles",
+      "name": "Cócteles & shots",
+      "group": "Barra",
+      "subtitle": "La noche tiene su propia carta",
+      "emoji": "🍸",
+      "items": [
+        {
+          "id": "cocteles-shot-de-aguardiente-san-ignacino",
+          "name": "Shot de aguardiente san ignacino",
+          "description": "",
+          "price": 6.0,
+          "category": "cocteles",
+          "image": "img/productos/shot-de-aguardiente-san-ignacino.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-shot-de-pisco-acholado",
+          "name": "Shot de pisco acholado",
+          "description": "",
+          "price": 10.0,
+          "category": "cocteles",
+          "image": "img/productos/shot-de-pisco-acholado.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-shot-de-tekila-reposado",
+          "name": "Shot de tekila reposado",
+          "description": "",
+          "price": 14.0,
+          "category": "cocteles",
+          "image": "img/productos/shot-de-tekila-reposado.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-cuba-libre",
+          "name": "Cuba libre",
+          "description": "",
+          "price": 14.0,
+          "category": "cocteles",
+          "image": "img/productos/cuba-libre.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-chilcano",
+          "name": "Chilcano",
+          "description": "Sabores (clásico, maracuyá, naranja",
+          "price": 16.0,
+          "category": "cocteles",
+          "image": "img/productos/chilcano.webp",
+          "alcohol": true,
+          "options": [
+            {
+              "label": "Elige un sabor",
+              "type": "single",
+              "values": [
+                "Clásico",
+                "Maracuyá",
+                "Naranja"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "cocteles-pisco-sour",
+          "name": "Pisco sour",
+          "description": "Sabores (clásico, maracuyá, café, granadina",
+          "price": 16.0,
+          "category": "cocteles",
+          "image": "img/productos/pisco-sour.webp",
+          "alcohol": true,
+          "options": [
+            {
+              "label": "Elige un sabor",
+              "type": "single",
+              "values": [
+                "Clásico",
+                "Maracuyá",
+                "Café",
+                "Granadina"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "cocteles-mojito",
+          "name": "Mojito",
+          "description": "Sabores (clásico, maracuyá, café, naranja",
+          "price": 16.0,
+          "category": "cocteles",
+          "image": "img/productos/mojito.webp",
+          "alcohol": true,
+          "options": [
+            {
+              "label": "Elige un sabor",
+              "type": "single",
+              "values": [
+                "Clásico",
+                "Maracuyá",
+                "Café",
+                "Naranja"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "cocteles-algarrobina",
+          "name": "Algarrobina",
+          "description": "",
+          "price": 18.0,
+          "category": "cocteles",
+          "image": "img/productos/algarrobina.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-laguna-azul",
+          "name": "Laguna azul",
+          "description": "",
+          "price": 18.0,
+          "category": "cocteles",
+          "image": "img/productos/laguna-azul.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-whisky-en-las-rocas",
+          "name": "Whisky en las rocas",
+          "description": "",
+          "price": 20.0,
+          "category": "cocteles",
+          "image": "img/productos/whisky-en-las-rocas.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-whisky-coffe",
+          "name": "Whisky coffee",
+          "description": "",
+          "price": 22.0,
+          "category": "cocteles",
+          "image": "img/productos/whisky-coffe.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-pina-colada",
+          "name": "Piña colada",
+          "description": "",
+          "price": 22.0,
+          "category": "cocteles",
+          "image": "img/productos/pina-colada.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-esperma-de-pitufo",
+          "name": "Esperma de pitufo",
+          "description": "",
+          "price": 22.0,
+          "category": "cocteles",
+          "image": "img/productos/esperma-de-pitufo.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-daiquiri",
+          "name": "Daiquiri",
+          "description": "Sabores (durazno, maracuyá",
+          "price": 22.0,
+          "category": "cocteles",
+          "image": "img/productos/daiquiri.webp",
+          "alcohol": true,
+          "options": [
+            {
+              "label": "Elige un sabor",
+              "type": "single",
+              "values": [
+                "Durazno",
+                "Maracuyá"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "cocteles-machu-picchu",
+          "name": "Machu picchu",
+          "description": "",
+          "price": 24.0,
+          "category": "cocteles",
+          "image": "img/productos/machu-picchu.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-san-ignacina-ardiente",
+          "name": "San ignacina ardiente",
+          "description": "Trago afrodisiaco a base de aguardiente local, hierba buena, cítricos de la zona y toques de miel de abeja.",
+          "price": 24.0,
+          "category": "cocteles",
+          "image": "img/productos/san-ignacina-ardiente.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-cerro-campana",
+          "name": "Cerro campana",
+          "description": "Contiene aguardiente local, jugo de naranja y mandarina con una base de granadina.",
+          "price": 24.0,
+          "category": "cocteles",
+          "image": "img/productos/cerro-campana.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-bulldog",
+          "name": "Bulldog",
+          "description": "Combinación de cítricos mezclados con 1 onza de tequila, 1 onza de pisco y cerveza corona, heineken o stella artois (a elección del cliente).",
+          "price": 28.0,
+          "category": "cocteles",
+          "image": "img/productos/bulldog.webp",
+          "alcohol": true,
+          "options": [
+            {
+              "label": "Elige tu cerveza",
+              "type": "single",
+              "values": [
+                "Corona",
+                "Heineken",
+                "Stella Artois"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "cocteles-sangria",
+          "name": "Sangria",
+          "description": "Mixtura de frutas con vino borgoña y un toque de pisco acholado.",
+          "price": 45.0,
+          "category": "cocteles",
+          "image": "img/productos/sangria.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-ronda-cachera",
+          "name": "Ronda cachera",
+          "description": "Contiene aguardientes y tragos exóticos en una ruleta que te hará jugar, vibrar y reír hasta tomarte el ultimo shot.",
+          "price": 45.0,
+          "category": "cocteles",
+          "image": "img/productos/ronda-cachera.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cocteles-ronda-penosa",
+          "name": "Ronda penosa",
+          "description": "Contiene tragos elaborados con aguardiente local de primera, servidos en 5 copas exóticas que te harán reír y divertirte hasta tomarte la ultima gota de cada copa.",
+          "price": 45.0,
+          "category": "cocteles",
+          "image": "img/productos/ronda-penosa.webp",
+          "alcohol": true
+        }
+      ]
+    },
+    {
+      "id": "cervezas",
+      "name": "Cervezas",
+      "group": "Barra",
+      "subtitle": "Un brindis bien frío",
+      "emoji": "🍺",
+      "items": [
+        {
+          "id": "cervezas-cerveza-artesanal-la-malquerida",
+          "name": "Cerveza artesanal la malquerida",
+          "description": "",
+          "price": 12.5,
+          "category": "cervezas",
+          "image": "img/productos/cerveza-artesanal-la-malquerida.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cervezas-corona",
+          "name": "Corona",
+          "description": "",
+          "price": 10.0,
+          "category": "cervezas",
+          "image": "img/productos/corona.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cervezas-heineken",
+          "name": "Heineken",
+          "description": "",
+          "price": 10.0,
+          "category": "cervezas",
+          "image": "img/productos/heineken.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cervezas-stella-artois",
+          "name": "Stella artois",
+          "description": "",
+          "price": 10.0,
+          "category": "cervezas",
+          "image": "img/productos/stella-artois.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cervezas-cuzquena-negra-grande",
+          "name": "Cusqueña negra grande",
+          "description": "",
+          "price": 12.5,
+          "category": "cervezas",
+          "image": "img/productos/cuzquena-negra-grande.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cervezas-cuzquena-de-trigo-grande",
+          "name": "Cusqueña de trigo grande",
+          "description": "",
+          "price": 12.5,
+          "category": "cervezas",
+          "image": "img/productos/cuzquena-de-trigo-grande.webp",
+          "alcohol": true
+        },
+        {
+          "id": "cervezas-pilsen-callao-margarita-litro",
+          "name": "Pilsen callao margarita litro",
+          "description": "",
+          "price": 16.0,
+          "category": "cervezas",
+          "image": "img/productos/pilsen-callao-margarita-litro.webp",
+          "alcohol": true
+        }
+      ]
+    },
+    {
+      "id": "vinos",
+      "name": "Vinos y espumantes",
+      "group": "Barra",
+      "subtitle": "Para brindar a tu ritmo",
+      "emoji": "🍷",
+      "items": [
+        {
+          "id": "vinos-tabernero-semi-seco-rose",
+          "name": "Tabernero semi seco rose",
+          "description": "",
+          "price": 35.0,
+          "category": "vinos",
+          "image": "img/productos/tabernero-semi-seco-rose.webp",
+          "alcohol": true
+        },
+        {
+          "id": "vinos-queirolo-semi-seco-rose",
+          "name": "Queirolo semi seco rose",
+          "description": "",
+          "price": 35.0,
+          "category": "vinos",
+          "image": "img/productos/queirolo-semi-seco-rose.webp",
+          "alcohol": true
+        },
+        {
+          "id": "vinos-queirolo-gran-blanco",
+          "name": "Queirolo gran blanco",
+          "description": "",
+          "price": 40.0,
+          "category": "vinos",
+          "image": "img/productos/queirolo-gran-blanco.webp",
+          "alcohol": true
+        },
+        {
+          "id": "vinos-tacama-semi-seco-rose",
+          "name": "Tacama semi seco rose",
+          "description": "",
+          "price": 50.0,
+          "category": "vinos",
+          "image": "img/productos/tacama-semi-seco-rose.webp",
+          "alcohol": true
+        },
+        {
+          "id": "vinos-tacama-gran-tinto",
+          "name": "Tacama gran tinto",
+          "description": "",
+          "price": 80.0,
+          "category": "vinos",
+          "image": "img/productos/tacama-gran-tinto.webp",
+          "alcohol": true
+        },
+        {
+          "id": "vinos-frontera",
+          "name": "Frontera",
+          "description": "",
+          "price": 50.0,
+          "category": "vinos",
+          "image": "img/productos/frontera.webp",
+          "alcohol": true
+        },
+        {
+          "id": "vinos-casillero-del-diablo",
+          "name": "Casillero del diablo",
+          "description": "",
+          "price": 80.0,
+          "category": "vinos",
+          "image": "img/productos/casillero-del-diablo.webp",
+          "alcohol": true
+        },
+        {
+          "id": "vinos-navarro-correas",
+          "name": "Navarro correas",
+          "description": "",
+          "price": 100.0,
+          "category": "vinos",
+          "image": "img/productos/navarro-correas.webp",
+          "alcohol": true
+        },
+        {
+          "id": "vinos-espumeante-ricadonna",
+          "name": "Espumeante ricadonna",
+          "description": "",
+          "price": 120.0,
+          "category": "vinos",
+          "image": "img/productos/espumeante-ricadonna.webp",
+          "alcohol": true
+        }
+      ]
+    },
+    {
+      "id": "whiskys",
+      "name": "Whiskys",
+      "group": "Barra",
+      "subtitle": "Selección de la barra",
+      "emoji": "🥃",
+      "items": [
+        {
+          "id": "whiskys-johnnie-walker-red-label",
+          "name": "Johnnie walker red label",
+          "description": "",
+          "price": 120.0,
+          "category": "whiskys",
+          "image": "img/productos/johnnie-walker-red-label.webp",
+          "alcohol": true
+        },
+        {
+          "id": "whiskys-johnnie-walker-black-label",
+          "name": "Johnnie walker black label",
+          "description": "",
+          "price": 210.0,
+          "category": "whiskys",
+          "image": "img/productos/johnnie-walker-black-label.webp",
+          "alcohol": true
+        },
+        {
+          "id": "whiskys-johnnie-walker-double-black",
+          "name": "Johnnie walker double black",
+          "description": "",
+          "price": 250.0,
+          "category": "whiskys",
+          "image": "img/productos/johnnie-walker-double-black.webp",
+          "alcohol": true
+        },
+        {
+          "id": "whiskys-johnnie-walker-gold-label-reserve",
+          "name": "Johnnie walker gold label reserve",
+          "description": "",
+          "price": 380.0,
+          "category": "whiskys",
+          "image": "img/productos/johnnie-walker-gold-label-reserve.webp",
+          "alcohol": true
+        },
+        {
+          "id": "whiskys-johnnie-walker-green-label-15-anos",
+          "name": "Johnnie walker green label 15 años",
+          "description": "",
+          "price": 500.0,
+          "category": "whiskys",
+          "image": "img/productos/johnnie-walker-green-label-15-anos.webp",
+          "alcohol": true
+        },
+        {
+          "id": "whiskys-jack-daniel-s-tennessee-apple",
+          "name": "Jack daniel´s tennessee apple",
+          "description": "",
+          "price": 210.0,
+          "category": "whiskys",
+          "image": "img/productos/jack-daniel-s-tennessee-apple.webp",
+          "alcohol": true
+        },
+        {
+          "id": "whiskys-jack-daniel-s-tennesse-honey",
+          "name": "Jack Daniel’s Tennessee Honey",
+          "description": "",
+          "price": 210.0,
+          "category": "whiskys",
+          "image": "img/productos/jack-daniel-s-tennesse-honey.webp",
+          "alcohol": true
+        },
+        {
+          "id": "whiskys-jack-daniel-s-odl-n-7",
+          "name": "Jack Daniel’s Old No. 7",
+          "description": "",
+          "price": 210.0,
+          "category": "whiskys",
+          "image": "img/productos/jack-daniel-s-odl-n-7.webp",
+          "alcohol": true
+        }
+      ]
+    },
+    {
+      "id": "rones",
+      "name": "Rones",
+      "group": "Barra",
+      "subtitle": "Para los de buen gusto",
+      "emoji": "🥃",
+      "items": [
+        {
+          "id": "rones-flor-de-cana-de-4-anos",
+          "name": "Flor de caña de 4 años",
+          "description": "",
+          "price": 90.0,
+          "category": "rones",
+          "image": "img/productos/flor-de-cana-de-4-anos.webp",
+          "alcohol": true
+        },
+        {
+          "id": "rones-flor-de-cana-de-5-anos",
+          "name": "Flor de caña de 5 años",
+          "description": "",
+          "price": 120.0,
+          "category": "rones",
+          "image": "img/productos/flor-de-cana-de-5-anos.webp",
+          "alcohol": true
+        },
+        {
+          "id": "rones-flor-de-cana-de-7-anos",
+          "name": "Flor de caña de 7 años",
+          "description": "",
+          "price": 165.0,
+          "category": "rones",
+          "image": "img/productos/flor-de-cana-de-7-anos.webp",
+          "alcohol": true
+        },
+        {
+          "id": "rones-flor-de-cana-de-12-anos",
+          "name": "Flor de caña de 12 años",
+          "description": "",
+          "price": 220.0,
+          "category": "rones",
+          "image": "img/productos/flor-de-cana-de-12-anos.webp",
+          "alcohol": true
+        },
+        {
+          "id": "rones-ron-cartavio-xo-18-anos",
+          "name": "Ron cartavio xo 18 años",
+          "description": "",
+          "price": 380.0,
+          "category": "rones",
+          "image": "img/productos/ron-cartavio-xo-18-anos.webp",
+          "alcohol": true
+        }
+      ]
+    },
+    {
+      "id": "piscos-tequilas",
+      "name": "Piscos y tequilas",
+      "group": "Barra",
+      "subtitle": "Clásicos de la noche",
+      "emoji": "🥃",
+      "items": [
+        {
+          "id": "piscos-tequilas-tabernero-acholado",
+          "name": "Tabernero acholado",
+          "description": "",
+          "price": 90.0,
+          "category": "piscos-tequilas",
+          "image": "img/productos/tabernero-acholado.webp",
+          "alcohol": true
+        },
+        {
+          "id": "piscos-tequilas-santiago-queirolo-acholado",
+          "name": "Santiago queirolo acholado",
+          "description": "",
+          "price": 90.0,
+          "category": "piscos-tequilas",
+          "image": "img/productos/santiago-queirolo-acholado.webp",
+          "alcohol": true
+        },
+        {
+          "id": "piscos-tequilas-pisco-4-gallos",
+          "name": "Pisco 4 gallos",
+          "description": "",
+          "price": 100.0,
+          "category": "piscos-tequilas",
+          "image": "img/productos/pisco-4-gallos.webp",
+          "alcohol": true
+        },
+        {
+          "id": "piscos-tequilas-pisco-porton-mosto-verde",
+          "name": "Pisco porton mosto verde",
+          "description": "",
+          "price": 200.0,
+          "category": "piscos-tequilas",
+          "image": "img/productos/pisco-porton-mosto-verde.webp",
+          "alcohol": true
+        },
+        {
+          "id": "piscos-tequilas-tekila-jose-cuervo-reposado-o-silver",
+          "name": "Tequila José Cuervo reposado o silver",
+          "description": "",
+          "price": 150.0,
+          "category": "piscos-tequilas",
+          "image": "img/productos/tekila-jose-cuervo-reposado-o-silver.webp",
+          "alcohol": true,
+          "options": [
+            {
+              "label": "Presentación",
+              "type": "single",
+              "values": [
+                "Reposado",
+                "Silver"
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "id": "piscos-tequilas-tekila-1800-reposado-o-silver",
+          "name": "Tequila 1800 reposado o silver",
+          "description": "",
+          "price": 250.0,
+          "category": "piscos-tequilas",
+          "image": "img/productos/tekila-1800-reposado-o-silver.webp",
+          "alcohol": true,
+          "options": [
+            {
+              "label": "Presentación",
+              "type": "single",
+              "values": [
+                "Reposado",
+                "Silver"
+              ],
+              "required": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
