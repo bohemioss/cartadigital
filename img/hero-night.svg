@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 820">
+<defs><radialGradient id="bg"><stop stop-color="#4e1925"/><stop offset=".65" stop-color="#1a0d17"/><stop offset="1" stop-color="#0e0d13"/></radialGradient><radialGradient id="flare"><stop stop-color="#ed7d3d" stop-opacity=".45"/><stop offset="1" stop-color="#ed7d3d" stop-opacity="0"/></radialGradient><linearGradient id="drink" x2="0" y2="1"><stop stop-color="#fce1a5"/><stop offset=".5" stop-color="#efad59"/><stop offset="1" stop-color="#b73a3b"/></linearGradient><linearGradient id="pizza" x2=".7" y2="1"><stop stop-color="#f2bb5e"/><stop offset=".9" stop-color="#bb6f35"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="32"/></filter><filter id="shadow"><feDropShadow dx="0" dy="25" stdDeviation="24" flood-color="#000" flood-opacity=".6"/></filter></defs>
+<rect width="780" height="820" rx="38" fill="url(#bg)"/>
+<g opacity=".14"><path d="M0 77H780M0 154H780M0 231H780M0 308H780M0 385H780M0 462H780M0 539H780M0 616H780M0 693H780M0 770H780" stroke="#f8bb92"/><path d="M80 0V820M160 0V820M240 0V820M320 0V820M400 0V820M480 0V820M560 0V820M640 0V820M720 0V820" stroke="#f8bb92"/></g>
+<ellipse cx="410" cy="400" rx="280" ry="255" fill="url(#flare)" filter="url(#soft)"/>
+<circle cx="397" cy="391" r="278" fill="none" stroke="#f9c782" stroke-opacity=".28" stroke-width="2"/>
+<circle cx="397" cy="391" r="233" fill="none" stroke="#f9c782" stroke-opacity=".12" stroke-width="2"/>
+<g filter="url(#shadow)" transform="translate(46 385) rotate(-21 245 175)">
+<ellipse cx="245" cy="186" rx="221" ry="107" fill="#4b241e" stroke="#e1a15a" stroke-width="15"/>
+<ellipse cx="245" cy="169" rx="207" ry="94" fill="url(#pizza)" stroke="#e6ab50" stroke-width="9"/>
+<ellipse cx="245" cy="160" rx="188" ry="81" fill="#bf4f35"/>
+<g fill="#ebc77c"><ellipse cx="122" cy="133" rx="23" ry="17"/><ellipse cx="192" cy="114" rx="27" ry="19"/><ellipse cx="261" cy="177" rx="26" ry="17"/><ellipse cx="367" cy="132" rx="25" ry="20"/><ellipse cx="169" cy="210" rx="25" ry="19"/><ellipse cx="359" cy="207" rx="23" ry="18"/></g><g fill="#713027" stroke="#b44536" stroke-width="4"><circle cx="128" cy="165" r="26"/><circle cx="265" cy="117" r="27"/><circle cx="325" cy="184" r="28"/><circle cx="232" cy="210" r="24"/></g><g stroke="#2b583e" stroke-width="8" stroke-linecap="round"><path d="m98 126 20 13m90 38-18 18m136-60 19 17m-82 58 21-13"/></g>
+</g>
+<g filter="url(#shadow)" transform="translate(425 105) rotate(13 70 220)">
+<path d="M54 0h47v90L90 103H65L54 90Z" fill="#d9dee4" opacity=".6"/><path d="M28 106h101L111 317q-7 44-33 44t-33-44L28 106Z" fill="#f0f0f0" fill-opacity=".24" stroke="#efd4b3" stroke-width="5"/>
+<path d="m38 137 12 179q7 30 28 30 20 0 28-30l13-179Z" fill="url(#drink)"/><path d="M76 361v76m-62 0h125" stroke="#e7c29a" stroke-width="11" stroke-linecap="round"/><path d="m52 90 75-56" stroke="#e7e7ee" stroke-width="11" stroke-linecap="round"/><circle cx="114" cy="143" r="47" fill="none" stroke="#93b85a" stroke-width="13"/><path d="M116 97v91" stroke="#609a55" stroke-width="5"/></g>
+<g opacity=".85" fill="#edc98c"><path d="m645 555 7 18 18 7-18 7-7 18-7-18-18-7 18-7Z"/><path d="m150 257 5 12 12 5-12 5-5 12-5-12-12-5 12-5Z"/><circle cx="640" cy="207" r="4"/><circle cx="90" cy="542" r="4"/></g>
+<g opacity=".62" fill="none" stroke="#ffbd77" stroke-width="2"><circle cx="644" cy="332" r="44"/><circle cx="644" cy="332" r="27"/><path d="m615 361 58-58"/></g>
+<path d="M57 742h665" stroke="#e8aa80" opacity=".42"/>
+<text x="65" y="705" font-family="Arial,sans-serif" fill="#f5dfbb" font-size="21" font-weight="bold" letter-spacing="8">SABOR PARA RECORDAR</text>
+</svg>
