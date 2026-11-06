@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#09090b">
+  <meta name="description" content="Explora la carta de Bohemios Resto Bar & Pizzería. Pizzas, parrillas, piqueos, burgers y barra. Haz tu pedido por WhatsApp.">
+  <meta property="og:title" content="Bohemios | Carta digital">
+  <meta property="og:description" content="La noche sabe mejor aquí. Explora nuestra carta y pide en unos toques.">
+  <title>Bohemios | Resto Bar & Pizzería — Carta digital</title>
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script defer src="datos/menu.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="announcement"><span class="blink-dot" aria-hidden="true"></span> BOHEMIOS RESTO BAR <span class="announcement-divider">/</span> SAN IGNACIO <span class="announcement-right">EL PLAN DE ESTA NOCHE ESTÁ AQUÍ</span></div>
+  <header class="header" id="inicio">
+    <a class="header-brand" href="#inicio" aria-label="Bohemios, inicio">
+      <span class="brand-emblem" aria-hidden="true">B<span>.</span></span>
+      <span><strong>BOHEMIOS</strong><small>RESTO BAR · PIZZERÍA</small></span>
+    </a>
+    <nav class="header-nav" aria-label="Navegación principal">
+      <a href="#carta">La carta</a><a href="#experiencia">La experiencia</a><a href="#ubicacion">Ubícanos</a>
+    </nav>
+    <button class="cart-trigger" id="headerCart" type="button" aria-label="Abrir mi pedido"><span class="cart-svg" aria-hidden="true">▣</span> Mi pedido <span class="cart-count" data-cart-count>0</span></button>
+  </header>
+
+  <section class="hero wrap" aria-labelledby="heroTitle">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="eyebrow-line"></span> ENCIENDE EL ANTOJO · DISFRUTA LA NOCHE</div>
+      <h1 id="heroTitle">LA NOCHE<br><span>SABE MEJOR</span><br>AQUÍ<span class="hero-period">.</span></h1>
+      <p>Buenas pizzas. Grandes parrillas. Cócteles que acompañan la noche. Elige lo que se te antoje y arma tu pedido desde aquí.</p>
+      <div class="hero-actions"><button type="button" class="btn btn-primary" id="exploreBtn">EXPLORAR LA CARTA <span aria-hidden="true">↗</span></button><button class="btn btn-outline" type="button" id="barBtn">VER LA BARRA <span aria-hidden="true">↗</span></button></div>
+      <div class="hero-trust"><span>✦ <b>141 opciones</b> para elegir</span><span>✦ <b>Pedido directo</b> por WhatsApp</span></div>
+    </div>
+    <div class="hero-visual" aria-label="Ilustración de la experiencia Bohemios">
+      <img src="img/hero-night.svg" alt="Ilustración nocturna de cócteles, parrilla y pizza en Bohemios" fetchpriority="high">
+      <div class="hero-ribbon">COME BIEN • BRINDA MEJOR • REPITE</div>
+      <div class="hero-mark">SAN IGNACIO <span>✳</span> RESTO BAR</div>
+    </div>
+    <span class="hero-side-label" aria-hidden="true">EST. SAN IGNACIO / PERÚ</span>
+  </section>
+
+  <section class="marquee" aria-label="Especialidades de la casa"><div class="marquee-track">PIZZAS AL HORNO <span>✳</span> PARRILLAS PARA COMPARTIR <span>✳</span> CÓCTELES Y SHOTS <span>✳</span> BURGERS <span>✳</span> BUENA MÚSICA, MEJOR COMIDA <span>✳</span> PIZZAS AL HORNO <span>✳</span> PARRILLAS PARA COMPARTIR <span>✳</span> CÓCTELES Y SHOTS <span>✳</span> BURGERS <span>✳</span> BUENA MÚSICA, MEJOR COMIDA <span>✳</span></div></section>
+
+  <main class="menu-section" id="carta">
+    <div class="wrap">
+      <div class="section-title-row"><div><span class="mini-kicker">ELIGE TU PRÓXIMO FAVORITO</span><h2>LA CARTA<span class="red-dot">.</span></h2><p>Mucho para elegir. Fácil para pedir.</p></div><div class="menu-number">01 <span>/</span> THE MENU</div></div>
+      <div class="group-tabs" role="group" aria-label="Elegir entre cocina y barra"><button type="button" class="group-tab active" data-group="Cocina"><span>🔥</span><strong>COCINA</strong><small>Para comer bien</small></button><button type="button" class="group-tab" data-group="Barra"><span>🍸</span><strong>LA BARRA</strong><small>Para brindar</small></button></div>
+      <div class="menu-layout">
+        <aside class="menu-sidebar" aria-label="Categorías de la carta"><div class="sidebar-title">EXPLORA POR SECCIÓN <span>↘</span></div><div id="categoryNav" class="category-nav"></div><div class="sidebar-box"><small>¿YA SABES QUÉ VAS A PEDIR?</small><b>NO DEJES QUE SE ENFRÍE.</b><button class="text-link" type="button" id="sidebarCart">IR A MI PEDIDO →</button></div></aside>
+        <div class="menu-area">
+          <div class="mobile-category-wrap" id="mobileCategories" aria-label="Secciones del menú"></div>
+          <div class="search-row"><label class="search-field" for="searchInput"><span class="search-icon" aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Busca una pizza, cóctel, parrilla..." autocomplete="off" spellcheck="false"><button id="clearSearch" type="button" aria-label="Limpiar búsqueda" hidden>✕</button></label><span class="result-count" id="resultCount"></span></div>
+          <div class="category-heading"><div><span class="category-eyebrow" id="categoryEyebrow">DE NUESTRA COCINA</span><h3 id="categoryHeading">Piqueos</h3><p id="categorySubtitle">Para empezar la noche</p></div><span class="heading-icon" id="categoryIcon" aria-hidden="true">🔥</span></div>
+          <div class="products-grid" id="productsGrid" aria-live="polite"></div>
+          <div class="menu-end-note">LOS BUENOS MOMENTOS SIEMPRE EMPIEZAN CON UN ANTOJO <span>✦</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="experience" id="experiencia"><div class="wrap experience-inner"><div><span class="mini-kicker">NO SOLO SE VIENE A COMER</span><h2>SE VIENE A <em>VIVIRLO.</em></h2><p>Un lugar para armar la noche a tu manera: tus amigos, tu mesa, algo delicioso y un brindis para celebrar.</p><button type="button" class="btn btn-primary" id="experienceBtn">ORDENAR AHORA <span aria-hidden="true">↗</span></button></div><div class="experience-card"><div class="ex-small">BOHEMIOS NIGHTS</div><strong>GOOD<br>FOOD<span>.</span><br>GOOD<br>MOOD<span>.</span></strong><span class="ex-stamp">✳ &nbsp; FOOD + DRINKS + FRIENDS &nbsp; ✳</span></div></div></section>
+
+  <section class="location wrap" id="ubicacion"><div class="location-top"><div><span class="mini-kicker">AQUÍ EMPIEZA EL PLAN</span><h2>ENCUÉNTRANOS<span class="red-dot">.</span></h2></div><span class="location-label">SAN IGNACIO — PERÚ</span></div><div class="location-grid"><div class="location-info"><span class="location-emoji">📍</span><span class="mini-kicker">DIRECCIÓN</span><h3>JR. CUSCO 430<br>SAN IGNACIO</h3><p>Puedes venir al local, pedir para recoger o solicitar delivery. Escríbenos para confirmar disponibilidad y el costo de envío.</p><div class="location-buttons"><a class="btn btn-primary" id="mapDirections" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query=Jr.%20Cusco%20430%2C%20San%20Ignacio%2C%20Per%C3%BA">CÓMO LLEGAR ↗</a><button type="button" class="btn btn-outline" id="locationOrder">HACER PEDIDO</button></div><div class="contact-phone">PEDIDOS POR WHATSAPP <strong>945 483 809</strong></div></div><div class="map-frame"><iframe title="Mapa de Bohemios, Jr. Cusco 430, San Ignacio" src="https://www.google.com/maps?q=Jr.%20Cusco%20430%2C%20San%20Ignacio%2C%20Per%C3%BA&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><a href="https://www.google.com/maps/search/?api=1&amp;query=Jr.%20Cusco%20430%2C%20San%20Ignacio%2C%20Per%C3%BA" target="_blank" rel="noopener noreferrer" class="map-cta">ABRIR EN GOOGLE MAPS ↗</a></div></div></section>
+
+  <footer class="footer"><div class="wrap footer-grid"><div><div class="footer-wordmark">BOHEMIOS<span>.</span></div><p>Resto Bar · Pizzería · Pollos y parrillas<br>San Ignacio, Perú</p></div><div><b>LA CARTA</b><a href="#carta" data-footer-group="Cocina">Cocina</a><a href="#carta" data-footer-group="Barra">Barra</a><a href="#ubicacion">Ubícanos</a></div><div><b>CONTACTO</b><a href="https://wa.me/51945483809" target="_blank" rel="noopener noreferrer">WhatsApp: 945 483 809</a><span>Jr. Cusco 430, San Ignacio</span><small>Venta de bebidas alcohólicas solo a mayores de 18 años.</small></div><div class="footer-logo-wrap"><img src="img/logo-original.png" alt="Logo original de Bohemios Resto Bar Pizzería"></div></div><div class="wrap footer-bottom"><span>© <span id="year"></span> BOHEMIOS. TODOS LOS DERECHOS RESERVADOS.</span><span>CARTA DIGITAL INTERACTIVA <span class="footer-spark">✳</span></span></div></footer>
+
+  <div class="bottom-nav"><button type="button" data-bottom="Cocina"><span aria-hidden="true">🍕</span> COCINA</button><button type="button" data-bottom="Barra"><span aria-hidden="true">🍸</span> BARRA</button><button type="button" id="bottomCart"><span aria-hidden="true">▣</span> MI PEDIDO <small data-cart-count>0</small></button></div>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <section class="product-modal modal-panel" id="productModal" role="dialog" aria-modal="true" aria-labelledby="productModalTitle" aria-hidden="true" hidden><button type="button" class="modal-close" id="closeProduct" aria-label="Cerrar producto">✕</button><div class="product-modal-scroll"><div id="productModalImage" class="modal-image"></div><div class="modal-content"><span class="modal-kicker">PERSONALIZA TU PEDIDO</span><h2 id="productModalTitle"></h2><p id="productModalDesc"></p><div id="variantControl"></div><div id="optionsControl"></div><label class="input-label" for="productNote">INDICACIONES PARA ESTE PRODUCTO (OPCIONAL)</label><textarea id="productNote" rows="2" placeholder="Ej.: sin cebolla, bien cocido..."></textarea></div></div><div class="product-modal-bottom"><div class="qty-control"><button type="button" id="qtyMinus" aria-label="Disminuir cantidad">−</button><strong id="modalQuantity">1</strong><button type="button" id="qtyPlus" aria-label="Aumentar cantidad">+</button></div><button class="btn btn-primary modal-add" type="button" id="addToCart"><span>AÑADIR AL PEDIDO</span><b id="modalTotal">S/ 0.00</b></button></div></section>
+
+  <section class="confirm-modal modal-panel" id="confirmModal" role="dialog" aria-modal="true" aria-labelledby="confirmTitle" aria-hidden="true" hidden><button class="modal-close" id="closeConfirm" type="button" aria-label="Cerrar confirmación">✕</button><div class="confirm-icon" aria-hidden="true">✓</div><span class="modal-kicker">¡BUENA ELECCIÓN!</span><h2 id="confirmTitle">AGREGADO A TU PEDIDO</h2><p id="confirmedProduct"></p><div class="confirm-actions"><button class="btn btn-primary" type="button" id="confirmCheckout">CONFIRMAR PEDIDO →</button><button class="btn btn-outline" type="button" id="continueShopping">SEGUIR COMPRANDO</button></div></section>
+
+  <aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle" aria-hidden="true" hidden><div class="drawer-header"><div><span class="modal-kicker">TUS ELEGIDOS DE LA NOCHE</span><h2 id="cartTitle">MI PEDIDO<span class="red-dot">.</span></h2></div><button type="button" id="closeCart" class="modal-close-cart" aria-label="Cerrar pedido">✕</button></div><div class="drawer-scroll"><div id="cartEmpty" class="cart-empty"><span>🛒</span><strong>TODAVÍA NO HAY NADA AQUÍ</strong><p>Explora la carta y encuentra algo irresistible.</p><button class="btn btn-primary" id="emptyBrowse" type="button">EXPLORAR CARTA →</button></div><div id="cartFilled" hidden><div id="cartList" class="cart-list"></div><div class="checkout-divider"></div><h3 class="checkout-title">DATOS PARA TU PEDIDO</h3><form id="checkoutForm" novalidate><div class="form-grid"><label class="field"><span>NOMBRE COMPLETO <i>*</i></span><input id="clientName" name="name" autocomplete="name" required placeholder="Tu nombre"></label><label class="field"><span>CELULAR <i>*</i></span><input id="clientPhone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" maxlength="9" required placeholder="987654321"></label></div><label class="field"><span>¿CÓMO DESEAS RECIBIRLO? <i>*</i></span><select id="deliveryMode" name="deliveryMode" required><option value="delivery">🛵 Delivery</option><option value="recojo">🛍️ Recojo en el local</option><option value="mesa">🍽️ Consumo en el local</option></select></label><div id="deliveryFields"><div class="form-grid"><label class="field"><span>DISTRITO / ZONA <i>*</i></span><input id="district" placeholder="Tu zona de entrega"></label><label class="field"><span>DIRECCIÓN <i>*</i></span><input id="deliveryAddress" autocomplete="street-address" placeholder="Calle, número, lote..."></label></div><label class="field"><span>REFERENCIA (OPCIONAL)</span><input id="addressReference" placeholder="Fachada, cruce, lugar cercano..."></label></div><div id="tableFields" hidden><label class="field"><span>NÚMERO O REFERENCIA DE MESA <i>*</i></span><input id="tableNumber" placeholder="Ej.: Mesa 5"></label></div><label class="field"><span>MÉTODO DE PAGO <i>*</i></span><select id="paymentMethod"><option value="Yape">Yape</option><option value="Plin">Plin</option><option value="Efectivo">Efectivo</option><option value="Transferencia">Transferencia bancaria</option><option value="Pago al recibir">Pago al recibir</option></select></label><label class="field"><span>NOTAS ADICIONALES (OPCIONAL)</span><textarea id="orderNotes" rows="3" placeholder="Ej.: traer cubiertos, indicar cambio, horario deseado..."></textarea></label><div class="checkout-help">El delivery y su costo se confirman por WhatsApp. El pedido se enviará como mensaje para que el local confirme disponibilidad y total.</div></form></div></div><div class="drawer-footer"><div class="total-row"><span>Subtotal</span><strong id="cartSubtotal">S/ 0.00</strong></div><p id="shippingInfo">Delivery por confirmar según zona.</p><button type="button" class="btn btn-primary finish-btn" id="finishOrder" disabled>ENVIAR PEDIDO POR WHATSAPP <span aria-hidden="true">↗</span></button><small>Se abrirá WhatsApp con el pedido listo para enviar.</small></div></aside>
+
+  <section class="age-modal modal-panel" id="ageModal" role="dialog" aria-modal="true" aria-labelledby="ageTitle" aria-hidden="true" hidden><div class="age-icon">18+</div><h2 id="ageTitle">UNA COSA ANTES DE BRINDAR</h2><p>Las bebidas alcohólicas son exclusivamente para mayores de 18 años. ¿Confirmas que tienes 18 años o más?</p><div class="confirm-actions"><button id="ageYes" type="button" class="btn btn-primary">SÍ, SOY MAYOR DE 18</button><button id="ageNo" type="button" class="btn btn-outline">NO, VOLVER A LA CARTA</button></div></section>
+
+  <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
+</body>
+</html>
