@@ -859,28 +859,28 @@
           "image": "img/productos/pollo-a-la-brasa.webp"
         },
         {
-          "id": "brasa-pollo-brasa",
+          "id": "brasa-medio-pollo-brasa",
           "name": "½ pollo brasa",
           "description": "Medio pollo brasa tierno y jugoso acompañado de abundante papas crujientes y ensalada de la casa",
           "price": 35.0,
           "category": "brasa",
-          "image": "img/productos/pollo-brasa.webp"
+          "image": "img/productos/medio-pollo-brasa.webp"
         },
         {
-          "id": "brasa-pollo-brasa",
+          "id": "brasa-cuarto-pollo-brasa",
           "name": "¼ pollo brasa",
           "description": "Un cuarto de pollo brasa tierno y jugoso acompañado de abundante papas crujientes y ensalada de la casa",
           "price": 18.0,
           "category": "brasa",
-          "image": "img/productos/pollo-brasa.webp"
+          "image": "img/productos/cuarto-pollo-brasa.webp"
         },
         {
-          "id": "brasa-pollo-brasa-mostrito",
+          "id": "brasa-cuarto-pollo-brasa-mostrito",
           "name": "¼ pollo brasa mostrito",
           "description": "Un cuarto de pollo brasa tierno y jugoso acompañado de abundante papas crujientes, arroz chaufa y ensalada de la casa.",
           "price": 22.0,
           "category": "brasa",
-          "image": "img/productos/pollo-brasa-mostrito.webp"
+          "image": "img/productos/cuarto-pollo-brasa-mostrito.webp"
         },
         {
           "id": "brasa-mollejitas-a-la-parrilla",
@@ -1026,12 +1026,12 @@
           "description": "",
           "price": 8.0,
           "category": "sin-alcohol",
-          "image": "img/productos/chicha-morada.webp",
+          "image": "img/productos/chicha-morada-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 8.0,
-              "image": "img/productos/chicha-morada-litro.webp"
+              "image": "img/productos/chicha-morada-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1046,12 +1046,12 @@
           "description": "",
           "price": 8.0,
           "category": "sin-alcohol",
-          "image": "img/productos/limonada-frozen.webp",
+          "image": "img/productos/limonada-frozen-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 8.0,
-              "image": "img/productos/limonada-frozen-litro.webp"
+              "image": "img/productos/limonada-frozen-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1066,12 +1066,12 @@
           "description": "",
           "price": 10.0,
           "category": "sin-alcohol",
-          "image": "img/productos/hierba-buena-frozen.webp",
+          "image": "img/productos/hierba-buena-frozen-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 10.0,
-              "image": "img/productos/hierba-buena-frozen-litro.webp"
+              "image": "img/productos/hierba-buena-frozen-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1086,12 +1086,12 @@
           "description": "",
           "price": 10.0,
           "category": "sin-alcohol",
-          "image": "img/productos/maracuya-frozen.webp",
+          "image": "img/productos/maracuya-frozen-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 10.0,
-              "image": "img/productos/maracuya-frozen-litro.webp"
+              "image": "img/productos/maracuya-frozen-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1106,12 +1106,12 @@
           "description": "",
           "price": 12.0,
           "category": "sin-alcohol",
-          "image": "img/productos/durazno-frozen.webp",
+          "image": "img/productos/durazno-frozen-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 12.0,
-              "image": "img/productos/durazno-frozen-litro.webp"
+              "image": "img/productos/durazno-frozen-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1126,12 +1126,12 @@
           "description": "",
           "price": 12.0,
           "category": "sin-alcohol",
-          "image": "img/productos/coco-frozen.webp",
+          "image": "img/productos/coco-frozen-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 12.0,
-              "image": "img/productos/coco-frozen-litro.webp"
+              "image": "img/productos/coco-frozen-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1146,12 +1146,12 @@
           "description": "",
           "price": 5.0,
           "category": "sin-alcohol",
-          "image": "img/productos/gaesosa-inca-cola.webp",
+          "image": "img/productos/gaesosa-inca-cola-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 5.0,
-              "image": "img/productos/gaesosa-inca-cola-litro.webp"
+              "image": "img/productos/gaesosa-inca-cola-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1166,12 +1166,12 @@
           "description": "",
           "price": 5.0,
           "category": "sin-alcohol",
-          "image": "img/productos/gaseosa-coca-cola.webp",
+          "image": "img/productos/gaseosa-coca-cola-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 5.0,
-              "image": "img/productos/gaseosa-coca-cola-litro.webp"
+              "image": "img/productos/gaseosa-coca-cola-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1186,12 +1186,12 @@
           "description": "",
           "price": 5.0,
           "category": "sin-alcohol",
-          "image": "img/productos/gaseosa-fanta.webp",
+          "image": "img/productos/gaseosa-fanta-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 5.0,
-              "image": "img/productos/gaseosa-fanta-litro.webp"
+              "image": "img/productos/gaseosa-fanta-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1206,7 +1206,7 @@
           "description": "",
           "price": 2.5,
           "category": "sin-alcohol",
-          "image": "img/productos/agua-mineral-san-carlos.webp",
+          "image": "img/productos/agua-mineral-san-carlos-litro.webp",
           "variants": [
             {
               "label": "½ litro",
@@ -1221,7 +1221,7 @@
           "description": "",
           "price": 3.0,
           "category": "sin-alcohol",
-          "image": "img/productos/agua-mineral-con-gas-san-carlos.webp",
+          "image": "img/productos/agua-mineral-con-gas-san-carlos-litro.webp",
           "variants": [
             {
               "label": "½ litro",
@@ -1236,7 +1236,7 @@
           "description": "",
           "price": 3.0,
           "category": "sin-alcohol",
-          "image": "img/productos/agua-mineral-san-luis.webp",
+          "image": "img/productos/agua-mineral-san-luis-litro.webp",
           "variants": [
             {
               "label": "½ litro",
@@ -1251,7 +1251,7 @@
           "description": "",
           "price": 8.0,
           "category": "sin-alcohol",
-          "image": "img/productos/cafe-pasado-san-ignacino.webp",
+          "image": "img/productos/cafe-pasado-san-ignacino-taza.webp",
           "variants": [
             {
               "label": "Taza",
@@ -1266,7 +1266,7 @@
           "description": "",
           "price": 10.0,
           "category": "sin-alcohol",
-          "image": "img/productos/cafe-pasado-con-leche.webp",
+          "image": "img/productos/cafe-pasado-con-leche-taza.webp",
           "variants": [
             {
               "label": "Taza",
@@ -1281,7 +1281,7 @@
           "description": "",
           "price": 4.0,
           "category": "sin-alcohol",
-          "image": "img/productos/infusiones-te-manzanilla-anis.webp",
+          "image": "img/productos/infusiones-te-manzanilla-anis-taza.webp",
           "variants": [
             {
               "label": "Taza",

@@ -1027,12 +1027,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 8.0,
           "category": "sin-alcohol",
-          "image": "img/productos/chicha-morada.webp",
+          "image": "img/productos/chicha-morada-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 8.0,
-              "image": "img/productos/chicha-morada-medio-litro.webp"
+              "image": "img/productos/chicha-morada-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1047,12 +1047,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 8.0,
           "category": "sin-alcohol",
-          "image": "img/productos/limonada-frozen.webp",
+          "image": "img/productos/limonada-frozen-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 8.0,
-              "image": "img/productos/limonada-frozen-medio-litro.webp"
+              "image": "img/productos/limonada-frozen-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1067,12 +1067,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 10.0,
           "category": "sin-alcohol",
-          "image": "img/productos/hierba-buena-frozen.webp",
+          "image": "img/productos/hierba-buena-frozen-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 10.0,
-              "image": "img/productos/hierba-buena-frozen-medio-litro.webp"
+              "image": "img/productos/hierba-buena-frozen-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1087,12 +1087,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 10.0,
           "category": "sin-alcohol",
-          "image": "img/productos/maracuya-frozen.webp",
+          "image": "img/productos/maracuya-frozen-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 10.0,
-              "image": "img/productos/maracuya-frozen-medio-litro.webp"
+              "image": "img/productos/maracuya-frozen-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1107,12 +1107,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 12.0,
           "category": "sin-alcohol",
-          "image": "img/productos/durazno-frozen.webp",
+          "image": "img/productos/durazno-frozen-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 12.0,
-              "image": "img/productos/durazno-frozen-medio-litro.webp"
+              "image": "img/productos/durazno-frozen-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1127,12 +1127,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 12.0,
           "category": "sin-alcohol",
-          "image": "img/productos/coco-frozen.webp",
+          "image": "img/productos/coco-frozen-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 12.0,
-              "image": "img/productos/coco-frozen-medio-litro.webp"
+              "image": "img/productos/coco-frozen-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1147,12 +1147,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 5.0,
           "category": "sin-alcohol",
-          "image": "img/productos/gaesosa-inca-cola.webp",
+          "image": "img/productos/gaesosa-inca-cola-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 5.0,
-              "image": "img/productos/gaesosa-inca-cola-medio-litro.webp"
+              "image": "img/productos/gaesosa-inca-cola-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1167,12 +1167,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 5.0,
           "category": "sin-alcohol",
-          "image": "img/productos/gaseosa-coca-cola.webp",
+          "image": "img/productos/gaseosa-coca-cola-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 5.0,
-              "image": "img/productos/gaseosa-coca-cola-medio-litro.webp"
+              "image": "img/productos/gaseosa-coca-cola-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1187,12 +1187,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 5.0,
           "category": "sin-alcohol",
-          "image": "img/productos/gaseosa-fanta.webp",
+          "image": "img/productos/gaseosa-fanta-1-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 5.0,
-              "image": "img/productos/gaseosa-fanta-medio-litro.webp"
+              "image": "img/productos/gaseosa-fanta-1-litro.webp"
             },
             {
               "label": "1 litro",
@@ -1207,12 +1207,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 2.5,
           "category": "sin-alcohol",
-          "image": "img/productos/agua-mineral-san-carlos.webp",
+          "image": "img/productos/agua-mineral-san-carlos-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 2.5,
-              "image": "img/productos/agua-mineral-san-carlos-medio-litro.webp"
+              "image": "img/productos/agua-mineral-san-carlos-litro.webp"
             }
           ]
         },
@@ -1222,12 +1222,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 3.0,
           "category": "sin-alcohol",
-          "image": "img/productos/agua-mineral-con-gas-san-carlos.webp",
+          "image": "img/productos/agua-mineral-con-gas-san-carlos-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 3.0,
-              "image": "img/productos/agua-mineral-con-gas-san-carlos-medio-litro.webp"
+              "image": "img/productos/agua-mineral-con-gas-san-carlos-litro.webp"
             }
           ]
         },
@@ -1237,12 +1237,12 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 3.0,
           "category": "sin-alcohol",
-          "image": "img/productos/agua-mineral-san-luis.webp",
+          "image": "img/productos/agua-mineral-san-luis-litro.webp",
           "variants": [
             {
               "label": "½ litro",
               "price": 3.0,
-              "image": "img/productos/agua-mineral-san-luis-medio-litro.webp"
+              "image": "img/productos/agua-mineral-san-luis-litro.webp"
             }
           ]
         },
@@ -1252,7 +1252,7 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 8.0,
           "category": "sin-alcohol",
-          "image": "img/productos/cafe-pasado-san-ignacino.webp",
+          "image": "img/productos/cafe-pasado-san-ignacino-taza.webp",
           "variants": [
             {
               "label": "Taza",
@@ -1267,7 +1267,7 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 10.0,
           "category": "sin-alcohol",
-          "image": "img/productos/cafe-pasado-con-leche.webp",
+          "image": "img/productos/cafe-pasado-con-leche-taza.webp",
           "variants": [
             {
               "label": "Taza",
@@ -1282,7 +1282,7 @@ window.BOHEMIOS_MENU = {
           "description": "",
           "price": 4.0,
           "category": "sin-alcohol",
-          "image": "img/productos/infusiones-te-manzanilla-anis.webp",
+          "image": "img/productos/infusiones-te-manzanilla-anis-taza.webp",
           "variants": [
             {
               "label": "Taza",
